@@ -1,60 +1,59 @@
 /* topLeft Blinkies */
-.url.box {
-  /*
-  height:0px;
-  padding: 0px;
-  border: none !important;
-  pointer-events: none;
-  */
-  
+/*http://blinki.es/blinkies/sexy/feeling-foxy.gif
+  https://blinki.es/blinkies/tech/born-to-surf-the-net.gif
+  https://blinki.es/blinkies/tech/internet-censorship.gif
+  https://blinki.es/blinkies/tech/i-don't-do-windows.gif
+  https://blinki.es/blinkies/tech/computer-geek.gif
+  https://blinki.es/blinkies/tech/computer-addict.gif
+  https://blinki.es/blinkies/tech/warm-modem.gif
+  https://blinki.es/blinkies/emo/in-goth-we-trust.gif
+  https://blinki.es/blinkies/emo/disturbed-skulls.gif
+}
+
+.url-info {display:none;}*/
+
+.details > p:nth-child(2):after {
   display:block;
-  content:url("https://blinki.es/blinkies/emo/goddess-ate-my-homework.gif");
+  content:url("https://blinki.es/blinkies/tech/internet-censorship.gif");*/
+  /*
+  url(https://blinki.es/blinkies/tech/born-to-surf-the-net.gif)
+  url(https://blinki.es/blinkies/emo/in-goth-we-trust.gif)
+  url(https://blinki.es/blinkies/emo/disturbed-skulls.gif)
+  */
   height: auto;
   width:100%;
-  margin-bottom:20px;
-  margin-top:20px;
-  padding: 0px;
+  margin-bottom:-10px;
+  margin-top:5px;
   border: none !important;
+  padding:0px !important;
+  cursor:var(--defaultcursor), default !important;
+}
+
+/*.url-info {
+  display:block;
+  content:url("https://blinki.es/blinkies/tech/internet-censorship.gif");
+  
+  height: auto;
+  width:100%;
+  margin-bottom:10px;
+  margin-top:10px;
+  border: none !important;
+  padding:0px !important;
   
 -ms-interpolation-mode: nearest-neighbor;
 image-rendering: crisp-edges;
 image-rendering: pixelated;
-}
+}*/
+
+/*
+  url(https://blinki.es/blinkies/tech/born-to-surf-the-net.gif)
+  url(https://blinki.es/blinkies/emo/in-goth-we-trust.gif)
+  url(https://blinki.es/blinkies/emo/disturbed-skulls.gif)
+*/
 
 /* View Counter - utf-4096 */
-td.shortRight::after {
+.contact header::after {
   content:url("https://mvc.penguins.win/cat.png?id=14790");
   margin-top:10px !important;
   display:block;
 }
-
-/*
-.url.box::after {
-  display:block;
-  content:url("https://blinki.es/blinkies/animal/dogs-are-people-too.gif");
-  height: auto;
-  width:100%;
-  margin-bottom:20px;
-  margin-top:20px;
-  padding: 0px;
-  border: none !important;
-  
--ms-interpolation-mode: nearest-neighbor;
-image-rendering: crisp-edges;
-image-rendering: pixelated;
-}
-.url.box::before {
-  display:block;
-  content:url("https://blinki.es/blinkies/people/night-person.gif");
-  height: auto;
-  width:100%;
-  margin-bottom:20px;
-  margin-top:20px;
-  padding: 0px;
-  border: none !important;
-  
--ms-interpolation-mode: nearest-neighbor;
-image-rendering: crisp-edges;
-image-rendering: pixelated;
-}
-*/
