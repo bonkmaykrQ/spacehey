@@ -33,6 +33,8 @@
 	font-family:daggersquare;
 }
 
+nav {border-left:1px solid #ff0000;border-right:1px solid #ff0000;}
+
 b, h1, h2, h3, h4 {
 	font-family:daggersquare;
 }
