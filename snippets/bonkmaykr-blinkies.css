@@ -12,7 +12,7 @@
 
 .url-info {display:none;}*/
 
-.details > p:nth-child(2):after {
+/*.details > p:nth-child(2):after*/ {
   display:block;
   content:url("https://blinki.es/blinkies/tech/internet-censorship.gif");*/
   /*
