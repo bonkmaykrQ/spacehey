@@ -55,12 +55,14 @@ body {
 	align-content: center;
 }
 
-a, .person > a > p, div.boxButton {
+a, .person > a > p, div.boxButton, .logout-btn {
 	color:red !important;
 	text-decoration:none !important;
 }
 
-a:hover, .person > a:hover > p, div.boxButton:hover {
+.logout-btn:hover {border:none !important;}
+
+a:hover, .person > a:hover > p, div.boxButton:hover, .logout-btn:hover {
 	color:#ff5555 !important;
 	text-decoration-line:underline !important;
 }
@@ -96,7 +98,7 @@ footer > ul.links {
 	background:transparent !important;
 }
 
-ul.links > li:after {
+ul.links > li:after, .top div.right {
 	color:#ff6666 !important;
 }
 
@@ -162,42 +164,39 @@ div.box.blog, div.topLeft.blogCard {
   	}
 }
 
-textarea
-/*leftovers from ms93's comment box, not used here since css doesnt apply to spacehey's comment page*/
-:hover {
-	background: #66000099;
-	color:#ff6666;
-	border:1px solid #ff9999;
-}
-
-textarea
-/*leftovers from ms93's comment box, not used here since css doesnt apply to spacehey's comment page*/
-:focus {
-	background: #66000077;
-	color:#ff6666;
-	border:1px solid #ff6666;
-}
-
-input[type="submit"]
-/*leftovers from ms93's comment box, not used here since css doesnt apply to spacehey's comment page*/
-, button {
+input[type="text"] {
 	background: #66000044;
 	color:#ff6666;
 	border:1px solid #ff0000;
 	text-decoration-line: none !important;
 }
 
-input[type="submit"]
-/*leftovers from ms93's comment box, not used here since css doesnt apply to spacehey's comment page*/
-:hover, button:hover {
+input[type="text"]:hover {
 	background: #66000099;
 	color:#ff6666;
 	border:1px solid #ff9999;
 }
 
-input[type="submit"]
-/*leftovers from ms93's comment box, not used here since css doesnt apply to spacehey's comment page*/
-:active, button:active {
+input[type="text"]:focus {
+	background: #66000077;
+	color:#ff6666;
+	border:1px solid #ff6666;
+}
+
+button {
+	background: #66000044;
+	color:#ff6666;
+	border:1px solid #ff0000;
+	text-decoration-line: none !important;
+}
+
+button:hover {
+	background: #66000099;
+	color:#ff6666;
+	border:1px solid #ff9999;
+}
+
+button:active {
 	background: #66000077;
 	color:#ff6666;
 	border:1px solid #ff6666;
