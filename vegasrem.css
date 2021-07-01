@@ -236,3 +236,7 @@ p.online{content:url("https://files.gamebanana.com/bitpit/online_3__1_.gif");}
 	padding-left:5px !important;
 	margin-bottom: 5px !important;
 }
+
+.details-table td {background:#00000044 !important;}
+.details-table tr td:nth-child(1) {color:cyan !important;}
+.details-table tr td:nth-child(1) a {color:cyan !important;}
