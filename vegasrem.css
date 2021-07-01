@@ -234,14 +234,14 @@ p.online{content:url("https://files.gamebanana.com/bitpit/online_3__1_.gif");}
 	border:1px solid #008f8f66 !important;
 	padding-top:5px !important;
 	padding-bottom:5px !important;
-	min-height:171.5px;
-	max-height: 375px;
-	height: auto;
+	height: 171.5px;
 	padding-left:5px !important;
 	margin-bottom: 5px !important;
 }
 
-.profile-pic {height:160px;width:160px;}
+.details > p {margin:12px;}
+
+.profile-pic {height:160px;width:160px;} /*this seems to be forced by the site anyway*/
 
 .details-table td {background:#00000044 !important;}
 .details-table tr td:nth-child(1) {color:cyan !important;}
