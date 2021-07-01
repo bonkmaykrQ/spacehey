@@ -72,6 +72,8 @@ div.col.left > .table-section > .inner > table tr > td:nth-child(2) {background:
 div.col.left > .table-section > .inner > table tr:last-child > td:nth-child(1) {background:transparent;color:#ff0000;/*border-bottom:none;*/}
 div.col.left > .table-section > .inner > table tr:last-child > td:nth-child(2) {background:transparent;color:#ff6666;/*border-bottom:none;*/border-left:1px solid #ff0000;}
 
+form label {color:#ff6666;}
+
 p.online {
 	content:url("https://files.gamebanana.com/bitpit/online_dcb1c.png");
 	cursor:var(--defaultCursor);
