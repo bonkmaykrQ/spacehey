@@ -147,7 +147,7 @@ nav {
 	backdrop-filter:blur(12px) !important;;
 }.top, nav .links {background: transparent !important;}
 .links li:after, .right {color:#009f9f !important;}
-nav a, .logout-btn {color:cyan !important;font-family:quicksand !important;}nav a:hover, .logout-btn:hover {color:yellow !important;border:none !important;font-family:quicksand !important;}
+nav a, .heading a, .logout-btn {color:cyan !important;font-family:quicksand !important;}nav a:hover, .logout-btn:hover {color:yellow !important;border:none !important;font-family:quicksand !important;}
 
 div.col.right .heading {
 	/*background:teal;
