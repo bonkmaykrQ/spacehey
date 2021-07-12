@@ -82,6 +82,7 @@ button:hover {
 	background:url("https://files.gamebanana.com/bitpit/istockphoto-1198290949-170667a.jpg");
 	background-attachment:fixed;
 	color:pink;
+	text-shadow:0px 0px 2px black, 0px 0px 1px white, 0px 0px 1px blue;
 	/*border-radius:0px 20px 20px 0px;*/
 }.comments-table > tbody:nth-child(1) > tr > td:nth-child(2) a {color:#ff9999 !important;}
 .comments-table > tbody:nth-child(1) > tr > td:nth-child(2) a:hover {text-shadow:0px 0px 4px #777777, 0px 0px 4px #777777 !important;}
@@ -146,7 +147,7 @@ nav {
 	background:rgba(0, 128, 128, 0.7) !important;
 	backdrop-filter:blur(12px) !important;;
 }.top, nav .links {background: transparent !important;}
-.links li:after, .right {color:#009f9f !important;}
+.links li:after, .right {/*! color:#009f9f !important; */}
 nav a, .heading a, .logout-btn {color:cyan !important;font-family:quicksand !important;}nav a:hover, .logout-btn:hover {color:yellow !important;border:none !important;font-family:quicksand !important;}
 
 div.col.right .heading {
@@ -247,6 +248,6 @@ p.online{content:url("https://files.gamebanana.com/bitpit/online_3__1_.gif");}
 .details-table tr td:nth-child(1) {color:cyan !important;}
 .details-table tr td:nth-child(1) a {color:cyan !important;}
 
-.comment-replies {border:none;border-top:1px solid;}
+.comment-replies, .comment-reply:not(:first-child) {border:none;border-top:1px solid;}
 
 .blurbs hr {color:#00ffff8f /*cyan*/;}
