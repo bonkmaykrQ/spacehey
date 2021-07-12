@@ -220,3 +220,25 @@ div.blogTitle > .uName {
 	margin-right:-4vw;
 	width:calc(100% + 8vw);
 }*/
+
+.comment-replies {
+	border:none;
+}
+
+.comment-reply {
+	border-top:1px solid #ff0000 !important;
+}
+
+hr {
+	color:#880000;
+}
+
+hr.imghr {
+	border:none;
+	content:url("https://files.gamebanana.com/bitpit/page-divider_1551013771.png");
+	width:100%;
+	height:auto;
+}
+
+hr.imghr.preserveBorder {
+}
