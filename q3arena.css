@@ -242,3 +242,8 @@ hr.imghr {
 
 hr.imghr.preserveBorder {
 }
+
+.player.box {
+  border:1px solid #ff0000;
+	color:#ff0000;
+}
